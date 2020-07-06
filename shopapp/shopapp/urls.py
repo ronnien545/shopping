@@ -20,4 +20,5 @@ from shopping import views
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',include('shopping.urls')),
+    path('new_search',views.new_search,name = "new_search")
 ]
